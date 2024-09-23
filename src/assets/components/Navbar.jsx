@@ -42,11 +42,11 @@ const Navbar = () => {
                     '>NEXCENT</span></a>
               
                      {/* nav items for large devices */}
-                     <u1 className='md:flex space-x12 hidden'>
+                     <ul className='md:flex space-x12 hidden'>
                          {
                             navitems.map()
                          }
-                     </u1>
+                     </ul
                 </div>
             </nav>
         </header>
